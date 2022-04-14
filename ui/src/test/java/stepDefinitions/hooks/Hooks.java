@@ -21,11 +21,11 @@ public class Hooks extends Base implements En {
         base.startBrowser();
     }
 
-    @After
-    public void tearDown(Scenario scenario) {
-        if (scenario.isFailed()) {
-            methodHelper.captureScreenshot(base.driver, scenario.getName());
-        }
-        base.tearBrowser();
-    }
+//    @After
+//    public void tearDown(Scenario scenario) {
+//        if (scenario.isFailed()) {
+//            methodHelper.captureScreenshot(base.driver, scenario.getName());
+//        }
+//        base.tearBrowser();
+//    }
 }
