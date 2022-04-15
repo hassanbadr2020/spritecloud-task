@@ -4,8 +4,7 @@ This project was designed as a part of SpriteCloud assessment for QA automation 
 # Key facts
 * the framework support test execution reports /test-reports directory
 * the test cases are designed based on The BDD using cucumber
-* test data are provided using data driven way from external sources
-* the test are set up using external config file browser-config.properties and api-config.properties at /resources
+* test data are provided using data driven way from examples with BDD
 * the UI test cover 3 features and 8 scenario
 * the API tests cover 6 features and 8 scenario
 * the API tests are designed based on the Swagger specs
