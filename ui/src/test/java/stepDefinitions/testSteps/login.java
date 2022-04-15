@@ -15,8 +15,8 @@ public class login extends Base {
         this.base = base;
     }
 
-    @And("try to login with valid user name {string} and password {string}")
-    public void tryToLoginWithValidUserNameAndPassword(String userName, String Password) {
+    @And("try to login with {string} user name {string} and password {string}")
+    public void tryToLoginWithValidUserNameAndPassword(String valid, String userName, String Password) {
         loginPage = new loginPage(base.driver);
         loginPage.sendUserNameAndPassword(userName, Password);
     }
@@ -26,7 +26,7 @@ public class login extends Base {
         loginPage.clickOnLoginBtn();
     }
 
-    @Then("user has been logged in successfully with {string}")
+    @Then("user has (.*) logged in with {string}")
     public void userHasBeenLoggedInSuccessfullyWithWelcomeMessage(String welcomeMessage) {
         Assert.assertEquals(loginPage.getWelcomeText(), welcomeMessage);
 
