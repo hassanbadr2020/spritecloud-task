@@ -41,6 +41,7 @@ public class scrollBar extends Base {
 
     @Then("the button is visible now")
     public void theButtonIsVisibleNow() {
+        Assert.assertTrue(scrollBars.checkVisibilityBtn());
 
     }
 }
