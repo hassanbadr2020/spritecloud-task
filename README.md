@@ -55,7 +55,8 @@ This project was designed as a part of SpriteCloud assessment for QA automation 
 ### Using CI/CD pipeline (gitlabCI)
 * you have to register your a docker runner [https://docs.gitlab.com/ee/ci/docker/using_docker_images.html#register-docker-runner]() or using shared runner
 * and use one of the official Maven Docker images, e.g., maven:3-jdk-11 in your .gitlab-ci.yml file
-```  image: maven:3-jdk-11
+``` 
+ image: maven:3-jdk-11
 
 stages:          # List of stages for jobs, and their order of execution
  - test
@@ -67,4 +68,5 @@ api-test-job:   # This job runs in the test stage.
 ui-test-job:   # This job runs in the test stage.
   stage: test    # It only starts when the job in the build stage completes successfully.
   script:
-    - "mvn -pl ui -am test```
+    - "mvn -pl ui -am test
+    ```
