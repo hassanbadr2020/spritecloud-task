@@ -1,3 +1,4 @@
+@findPet
 Feature: Find Pets by Status
 
   Scenario Outline: User try to find pets based on status

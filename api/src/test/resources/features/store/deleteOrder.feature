@@ -1,3 +1,4 @@
+@DeletePurchase
 Feature: Delete purchase by order Id
 
   Scenario Outline: Try to delete a created order

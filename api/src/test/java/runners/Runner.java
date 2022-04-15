@@ -8,8 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         dryRun = false,
         strict = true,
-         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:testOutput/HtmlReport/ExtentHtml.html"},
-//        plugin={"pretty", "html:build/test-results/test-report"},
+//         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:testOutput/HtmlReport/ExtentHtml.html"},
+        plugin = { "pretty", "json:target/cucumber-reports/API_Report.json",
+                "junit:target/cucumber-reports/API_Report.xml"},
         features = {"src/test/resources/features"},
         glue = {"stepDefinitions"}
 )

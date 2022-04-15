@@ -1,3 +1,4 @@
+@addPett
 Feature: add a new pet to the store
 
   Scenario Outline: Try to add a new pet to the store with valid data

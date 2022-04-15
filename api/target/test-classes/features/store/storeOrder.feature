@@ -1,3 +1,4 @@
+@PlaceOrder
 Feature: place an order for a pet
 
   Scenario Outline: User try place an order for a pet with valid data
