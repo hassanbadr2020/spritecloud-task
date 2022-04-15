@@ -18,7 +18,7 @@ This project was designed as a part of SpriteCloud assessment for QA automation 
 * the API tests are designed based on the Swagger specs
 * the UI tests are designed based on exploratory testing and all of them are green
 
-# Modlues
+# Modules
 * test-api-project: contains API related logic and test suites
 * test-ui-project: contains UI related logic (Page Object Model , Driver Factory) and test suites
 * common-helpers: contains common libraries for both project (test resources readers , Env handler )
