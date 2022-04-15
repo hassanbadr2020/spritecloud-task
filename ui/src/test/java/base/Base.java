@@ -13,7 +13,7 @@ public class Base {
     DataManager dataManager = new DataManager();
 
     public void startBrowser() {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/linux/chromedriver");
         driver = new ChromeDriver();
         Dimension initial_size = driver.manage().window().getSize();
         driver.manage().window().maximize();
