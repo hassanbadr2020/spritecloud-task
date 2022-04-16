@@ -48,10 +48,10 @@ This project was designed as a part of SpriteCloud assessment for QA automation 
      2- how these scenarios effect the enduser to use the system without any shortage.
      3- see if there is any dependency feature (eg. authorization and authentication features).
 
-#Calliope enhancements
+# Calliope enhancements
 ### improvements
     1- When I want to remove a report file I've to remove all the profile
-       so if possible to remove only that report will bs practical.
+       so if possible to remove only that report will be practical.
     2-visualization of the xml report is not same as json file.  
     3-customize to whom should to send email summery.
 
@@ -64,11 +64,11 @@ This project was designed as a part of SpriteCloud assessment for QA automation 
 #### Mainly our execution focus on triggering the UI or API project or Both of them each project
 
  ### API and UI test: use the following maven command
- `mvn install`
+    `mvn install`
 ### API tests only: use the following maven command
- `mvn install -pl api -am`
+   `mvn install -pl api -am`
 ### UI tests only: use the following maven command
-` mvn install -pl ui -am`
+   `mvn install -pl ui -am`
 
 ### Using CI/CD pipeline (gitlabCI)
 * you have to register your a docker runner [https://docs.gitlab.com/ee/ci/docker/using_docker_images.html#register-docker-runner]() or using shared runner
