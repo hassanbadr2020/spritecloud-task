@@ -1,0 +1,7 @@
+pages\homePage.class
+pages\loadDelay.class
+pages\loginPage.class
+pages\ajax.class
+pages\scrollBars.class
+pages\clientDelay.class
+pages\basePage.class

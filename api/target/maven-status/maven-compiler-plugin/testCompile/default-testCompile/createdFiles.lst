@@ -1,0 +1,9 @@
+stepDefinitions\hooks\Hooks.class
+stepDefinitions\testSteps\placeOrder.class
+runners\Runner.class
+stepDefinitions\testSteps\login.class
+stepDefinitions\testSteps\listPets.class
+stepDefinitions\testSteps\createUser.class
+stepDefinitions\testSteps\addPet.class
+stepDefinitions\testSteps\deleteOrder.class
+apiRequests\ApiRequests.class

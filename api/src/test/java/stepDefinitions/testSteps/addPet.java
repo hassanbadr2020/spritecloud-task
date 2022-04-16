@@ -29,11 +29,19 @@ public class addPet implements En {
             base.requestBody.put("photoUrls", urls);
         });
         When("^user send post request with these valid data$", () -> {
-            System.out.println(base.requestBody);
             base.response = apiRequests.addPet(base.requestBody);
+
         });
         Then("^the pet added with name \"([^\"]*)\"$", (String PetName) -> {
             Assert.assertEquals(PetName, base.response.jsonPath().get("name"));
+
+        });
+        When("^send request to delete that pet with (validId|invalidId)$", (String flag) -> {
+            if (flag.equals("validId")) {
+                base.response = apiRequests.deletePet(base.response.jsonPath().get("id"));
+            }else{
+                base.response = apiRequests.deletePet(121121213L);
+            }
 
         });
     }

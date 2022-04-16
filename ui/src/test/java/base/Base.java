@@ -1,6 +1,7 @@
 package base;
 
 import environments.handler.DataManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,7 +14,7 @@ public class Base {
     DataManager dataManager = new DataManager();
 
     public void startBrowser() {
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/windows/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         Dimension initial_size = driver.manage().window().getSize();
         driver.manage().window().maximize();

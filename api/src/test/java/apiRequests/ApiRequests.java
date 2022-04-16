@@ -39,4 +39,9 @@ public class ApiRequests {
         return apiRequestBuilder.performRequest(dataManager.getApiUri(), endpoints.getPET(), "POST", body, null, null, null);
     }
 
+    public Response deletePet(Long id) {
+
+        return apiRequestBuilder.performRequest(dataManager.getApiUri(), endpoints.getPET() + "/" + id, "DELETE", null, null, null, null);
+    }
+
 }

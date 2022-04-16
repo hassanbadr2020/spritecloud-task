@@ -1,0 +1,996 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-16T14:32:06.895Z",
+        "before": [
+          {
+            "result": {
+              "duration": 63264000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.getStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Fill in and submit the form. For successful login",
+        "description": "",
+        "id": "demo-application-with-dynamically-generated-element-attributes;fill-in-and-submit-the-form.-for-successful-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3398000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in the home age of \"uitestingplayground\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uitestingplayground\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.testSteps.scrollBar.userInTheHomeAgeOf(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3717000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the \"Sample App\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sample App\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.testSteps.delays.clickOnTheAjaxDelaySection(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 821000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "try to login with \"valid\" user name \"anyUser\" and password \"pwd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"valid\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"anyUser\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"pwd\"",
+                  "offset": 59
+                }
+              ],
+              "location": "stepDefinitions.testSteps.login.tryToLoginWithValidUserNameAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on the login button",
+            "match": {
+              "location": "stepDefinitions.testSteps.login.clickOnTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user has  logged in with \"Welcome, anyUser!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome, anyUser!\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.testSteps.login.userHasBeenLoggedInSuccessfullyWithWelcomeMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-16T14:33:19.029Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15612000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.getStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Fill in and submit the form. For failed login",
+        "description": "",
+        "id": "demo-application-with-dynamically-generated-element-attributes;fill-in-and-submit-the-form.-for-failed-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 998000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User in the home age of \"uitestingplayground\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uitestingplayground\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.testSteps.scrollBar.userInTheHomeAgeOf(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 834000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on the \"Sample App\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sample App\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.testSteps.delays.clickOnTheAjaxDelaySection(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "try to login with \"invalid\" user name \"\" and password \"pwd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"pwd\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinitions.testSteps.login.tryToLoginWithValidUserNameAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on the login button",
+            "match": {
+              "location": "stepDefinitions.testSteps.login.clickOnTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has not logged in with \"Invalid username/password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username/password\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.testSteps.login.userHasBeenLoggedInSuccessfullyWithWelcomeMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-16T14:33:36.935Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7347000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.getStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Fill in and submit the form. For failed login",
+        "description": "",
+        "id": "demo-application-with-dynamically-generated-element-attributes;fill-in-and-submit-the-form.-for-failed-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 845000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User in the home age of \"uitestingplayground\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uitestingplayground\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.testSteps.scrollBar.userInTheHomeAgeOf(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 837000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on the \"Sample App\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sample App\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.testSteps.delays.clickOnTheAjaxDelaySection(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "try to login with \"invalid\" user name \"anyUser\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"anyUser\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefinitions.testSteps.login.tryToLoginWithValidUserNameAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on the login button",
+            "match": {
+              "location": "stepDefinitions.testSteps.login.clickOnTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has not logged in with \"Invalid username/password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username/password\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.testSteps.login.userHasBeenLoggedInSuccessfullyWithWelcomeMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-16T14:33:46.426Z",
+        "before": [
+          {
+            "result": {
+              "duration": 26576000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.getStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Fill in and submit the form. For failed login",
+        "description": "",
+        "id": "demo-application-with-dynamically-generated-element-attributes;fill-in-and-submit-the-form.-for-failed-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 856000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User in the home age of \"uitestingplayground\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uitestingplayground\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.testSteps.scrollBar.userInTheHomeAgeOf(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 854000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on the \"Sample App\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sample App\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.testSteps.delays.clickOnTheAjaxDelaySection(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "try to login with \"invalid\" user name \"\" and password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"invalid\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinitions.testSteps.login.tryToLoginWithValidUserNameAndPassword(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on the login button",
+            "match": {
+              "location": "stepDefinitions.testSteps.login.clickOnTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has not logged in with \"Invalid username/password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid username/password\"",
+                  "offset": 28
+                }
+              ],
+              "location": "stepDefinitions.testSteps.login.userHasBeenLoggedInSuccessfullyWithWelcomeMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Demo application with dynamically generated element attributes",
+    "description": "",
+    "id": "demo-application-with-dynamically-generated-element-attributes",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-16T14:34:15.135Z",
+        "before": [
+          {
+            "result": {
+              "duration": 27289000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.getStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "\"try to handle elements may appear on a page after loading data with ajax or client-side time consuming\"",
+        "description": "",
+        "id": "user-try-to-handle-most-types-of-delay-from-ajax--load-and-client-side-delays;\"try-to-handle-elements-may-appear-on-a-page-after-loading-data-with-ajax-or-client-side-time-consuming\";;2",
+        "after": [
+          {
+            "result": {
+              "duration": 940000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in the home age of \"uitestingplayground\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uitestingplayground\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.testSteps.scrollBar.userInTheHomeAgeOf(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 914000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the \"ajax delay\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ajax delay\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.testSteps.delays.clickOnTheAjaxDelaySection(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on \"ajax delay\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ajax delay\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.testSteps.delays.clickOnAjaxButton(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15228000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the message of \"Data loaded with AJAX get request.\" \"ajax delay\" is appeared after 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Data loaded with AJAX get request.\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"ajax delay\"",
+                  "offset": 52
+                },
+                {
+                  "val": "15",
+                  "offset": 83
+                }
+              ],
+              "location": "stepDefinitions.testSteps.delays.theMessageOfIsAppearedAfter(java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@delay"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-16T14:34:59.710Z",
+        "before": [
+          {
+            "result": {
+              "duration": 26964000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.getStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "\"try to handle elements may appear on a page after loading data with ajax or client-side time consuming\"",
+        "description": "",
+        "id": "user-try-to-handle-most-types-of-delay-from-ajax--load-and-client-side-delays;\"try-to-handle-elements-may-appear-on-a-page-after-loading-data-with-ajax-or-client-side-time-consuming\";;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1230000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in the home age of \"uitestingplayground\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uitestingplayground\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.testSteps.scrollBar.userInTheHomeAgeOf(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 875000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the \"Client Side Delay\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Client Side Delay\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.testSteps.delays.clickOnTheAjaxDelaySection(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on \"Client Side Delay\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Client Side Delay\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.testSteps.delays.clickOnAjaxButton(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15047000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the message of \"Data calculated on the client side.\" \"Client Side Delay\" is appeared after 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Data calculated on the client side.\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Client Side Delay\"",
+                  "offset": 53
+                },
+                {
+                  "val": "15",
+                  "offset": 91
+                }
+              ],
+              "location": "stepDefinitions.testSteps.delays.theMessageOfIsAppearedAfter(java.lang.String,java.lang.String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@delay"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-16T14:35:43.982Z",
+        "before": [
+          {
+            "result": {
+              "duration": 36996000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.getStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Ensure that a test is capable of waiting for a page to load",
+        "description": "",
+        "id": "user-try-to-handle-most-types-of-delay-from-ajax--load-and-client-side-delays;ensure-that-a-test-is-capable-of-waiting-for-a-page-to-load",
+        "after": [
+          {
+            "result": {
+              "duration": 1688000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User in the home age of \"uitestingplayground\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uitestingplayground\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.testSteps.scrollBar.userInTheHomeAgeOf(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3270000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on the \"load delay\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"load delay\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.testSteps.delays.clickOnTheAjaxDelaySection(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 452000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the page has been loaded",
+            "match": {
+              "location": "stepDefinitions.testSteps.delays.thePageHasBeenLoaded()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@delay"
+          }
+        ]
+      }
+    ],
+    "name": "User try to handle most types of delay from ajax, load and client side delays",
+    "description": "",
+    "id": "user-try-to-handle-most-types-of-delay-from-ajax--load-and-client-side-delays",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/delay.feature",
+    "tags": [
+      {
+        "name": "@delay",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-16T14:36:26.435Z",
+        "before": [
+          {
+            "result": {
+              "duration": 50367000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.getStart(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Scrolling an element into view may be a tricky task",
+        "description": "",
+        "id": "scrolling-an-element-into-view-may-be-a-tricky-task;scrolling-an-element-into-view-may-be-a-tricky-task",
+        "after": [
+          {
+            "result": {
+              "duration": 1327000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in the home age of \"uitestingplayground\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"uitestingplayground\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.testSteps.scrollBar.userInTheHomeAgeOf(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2270000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the ScrollBar section",
+            "match": {
+              "location": "stepDefinitions.testSteps.scrollBar.clickOnTheScrollBarSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Update scrollTop and scrollRight automatically of the hidden area.",
+            "match": {
+              "location": "stepDefinitions.testSteps.scrollBar.updateScrollTopAndScrollRightAutomaticallyOfTheHiddenArea()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the button is visible now",
+            "match": {
+              "location": "stepDefinitions.testSteps.scrollBar.theButtonIsVisibleNow()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@scrollBars"
+          }
+        ]
+      }
+    ],
+    "name": "Scrolling an element into view may be a tricky task",
+    "description": "",
+    "id": "scrolling-an-element-into-view-may-be-a-tricky-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/scrollBars.feature",
+    "tags": [
+      {
+        "name": "@scrollBars",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
