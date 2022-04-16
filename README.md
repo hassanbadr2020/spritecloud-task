@@ -42,6 +42,24 @@ This project was designed as a part of SpriteCloud assessment for QA automation 
 * API Report on CalliopeOrg https://app.calliope.pro/reports/126280/public/051add69-bfa9-47c0-8c22-107129609e2d
 * UI Report on CalliopeOrg https://app.calliope.pro/reports/126282/public/e9e03fd7-961c-4542-94a6-6aeb36544a57
 
+# What you used to select the scenarios, what was your approach?
+### we usually decide the importance of scenarios based on (High priority)
+     1- the business needs and requirements.
+     2- how these scenarios effect the enduser to use the system without any shortage.
+     3- see if there is any dependency feature (eg. authorization and authentication features).
+
+#Calliope enhancements
+### improvements
+    1- When I want to remove a report file I've to remove all the profile
+       so if possible to remove only that report will bs practical.
+    2-visualization of the xml report is not same as json file.  
+    3-customize to whom should to send email summery.
+
+### features to add are
+    1- to support HTML files
+    2- integrate with jira as visual report.
+
+
 # How to execute
 #### Mainly our execution focus on triggering the UI or API project or Both of them each project
 

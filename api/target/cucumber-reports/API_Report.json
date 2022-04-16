@@ -1,0 +1,871 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-15T20:55:41.493Z",
+        "line": 14,
+        "name": "Try to add a new pet to the store with valid data",
+        "description": "",
+        "id": "add-a-new-pet-to-the-store;try-to-add-a-new-pet-to-the-store-with-valid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 188000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has status and name",
+            "match": {
+              "location": "stepDefinitions.testSteps.addPet.\u003cinit\u003e(addPet.java:21)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "status"
+                ]
+              },
+              {
+                "cells": [
+                  "Dog",
+                  "available"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the photo urls of \"jhk\" pet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jhk",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.testSteps.addPet.\u003cinit\u003e(addPet.java:25)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10672000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user send post request with these valid data",
+            "match": {
+              "location": "stepDefinitions.testSteps.addPet.\u003cinit\u003e(addPet.java:31)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1828000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the pet added with name \"Dog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dog",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.testSteps.addPet.\u003cinit\u003e(addPet.java:35)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "status code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:23)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@addPett"
+          }
+        ]
+      }
+    ],
+    "name": "add a new pet to the store",
+    "description": "",
+    "id": "add-a-new-pet-to-the-store",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/pet/addPet.feature",
+    "tags": [
+      {
+        "name": "@addPett",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-15T20:55:54.383Z",
+        "line": 10,
+        "name": "User try to find pets based on status",
+        "description": "",
+        "id": "find-pets-by-status;user-try-to-find-pets-based-on-status;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7924000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User wants to find pet within \"available\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "available",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.testSteps.listPets.\u003cinit\u003e(listPets.java:16)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7016000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Sends get request to pet endpoint with the status as query parameter",
+            "match": {
+              "location": "stepDefinitions.testSteps.listPets.\u003cinit\u003e(listPets.java:20)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "status code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:23)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@findPet"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-15T20:56:09.385Z",
+        "line": 11,
+        "name": "User try to find pets based on status",
+        "description": "",
+        "id": "find-pets-by-status;user-try-to-find-pets-based-on-status;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User wants to find pet within \"pending\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pending",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.testSteps.listPets.\u003cinit\u003e(listPets.java:16)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1063000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Sends get request to pet endpoint with the status as query parameter",
+            "match": {
+              "location": "stepDefinitions.testSteps.listPets.\u003cinit\u003e(listPets.java:20)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "status code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:23)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@findPet"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-15T20:56:10.463Z",
+        "line": 12,
+        "name": "User try to find pets based on status",
+        "description": "",
+        "id": "find-pets-by-status;user-try-to-find-pets-based-on-status;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User wants to find pet within \"sold\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sold",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.testSteps.listPets.\u003cinit\u003e(listPets.java:16)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5406000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Sends get request to pet endpoint with the status as query parameter",
+            "match": {
+              "location": "stepDefinitions.testSteps.listPets.\u003cinit\u003e(listPets.java:20)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "status code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:23)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@findPet"
+          }
+        ]
+      }
+    ],
+    "name": "Find Pets by Status",
+    "description": "",
+    "id": "find-pets-by-status",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/pet/listPets.feature",
+    "tags": [
+      {
+        "name": "@findPet",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-15T20:56:15.916Z",
+        "line": 14,
+        "name": "Try to delete a created order",
+        "description": "",
+        "id": "delete-purchase-by-order-id;try-to-delete-a-created-order;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has valid data to store a pet",
+            "match": {
+              "location": "stepDefinitions.testSteps.placeOrder.\u003cinit\u003e(placeOrder.java:18)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "petId",
+                  "quantity",
+                  "shipDate",
+                  "status",
+                  "complete"
+                ]
+              },
+              {
+                "cells": [
+                  "0",
+                  "0",
+                  "0",
+                  "2022-04-14T13:35:33.894Z",
+                  "placed",
+                  "true"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15312000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "send a post request with the valid body",
+            "match": {
+              "location": "stepDefinitions.testSteps.placeOrder.\u003cinit\u003e(placeOrder.java:21)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:23)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1032000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user sends a delete request to the system with the valid OrderId witch has been created",
+            "match": {
+              "location": "stepDefinitions.testSteps.deleteOrder.\u003cinit\u003e(deleteOrder.java:15)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "status code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:23)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeletePurchase"
+          }
+        ]
+      }
+    ],
+    "name": "Delete purchase by order Id",
+    "description": "",
+    "id": "delete-purchase-by-order-id",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/store/deleteOrder.feature",
+    "tags": [
+      {
+        "name": "@DeletePurchase",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-15T20:56:32.275Z",
+        "line": 13,
+        "name": "User try place an order for a pet with valid data",
+        "description": "",
+        "id": "place-an-order-for-a-pet;user-try-place-an-order-for-a-pet-with-valid-data;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has valid data to store a pet",
+            "match": {
+              "location": "stepDefinitions.testSteps.placeOrder.\u003cinit\u003e(placeOrder.java:18)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "petId",
+                  "quantity",
+                  "shipDate",
+                  "status",
+                  "complete"
+                ]
+              },
+              {
+                "cells": [
+                  "0",
+                  "0",
+                  "0",
+                  "2022-04-14T13:35:33.894Z",
+                  "placed",
+                  "true"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 859000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "send a post request with the valid body",
+            "match": {
+              "location": "stepDefinitions.testSteps.placeOrder.\u003cinit\u003e(placeOrder.java:21)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:23)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the order has been stored successfully with status \"placed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "placed",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.testSteps.placeOrder.\u003cinit\u003e(placeOrder.java:24)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PlaceOrder"
+          }
+        ]
+      }
+    ],
+    "name": "place an order for a pet",
+    "description": "",
+    "id": "place-an-order-for-a-pet",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/store/storeOrder.feature",
+    "tags": [
+      {
+        "name": "@PlaceOrder",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-15T20:56:33.213Z",
+        "line": 13,
+        "name": "try to create a new user with valid data",
+        "description": "",
+        "id": "create-a-new-user;try-to-create-a-new-user-with-valid-data;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Admin has valid data to create a new user",
+            "match": {
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:17)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "username",
+                  "firstName",
+                  "lastName",
+                  "email",
+                  "password",
+                  "phone",
+                  "userStatus"
+                ]
+              },
+              {
+                "cells": [
+                  "0",
+                  "TEST",
+                  "TESTF",
+                  "TESTL",
+                  "test@test.com",
+                  "TESTpass",
+                  "01313123",
+                  "0"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1141000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Admin send post request to create user",
+            "match": {
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:20)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:23)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1065000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "response body matches \"json-schemas/createUser.json\" in Api contract",
+            "match": {
+              "arguments": [
+                {
+                  "val": "json-schemas/createUser.json",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:26)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@createUser"
+          }
+        ]
+      }
+    ],
+    "name": "Create a new User",
+    "description": "",
+    "id": "create-a-new-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/user/createUser.feature",
+    "tags": [
+      {
+        "name": "@createUser",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-15T20:56:35.449Z",
+        "line": 12,
+        "name": "User try to logs in with valid credentials",
+        "description": "",
+        "id": "user-logs-into-to-the-system;user-try-to-logs-in-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.hooks.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has a valid userName and password",
+            "match": {
+              "location": "stepDefinitions.testSteps.login.\u003cinit\u003e(login.java:17)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "TEST",
+                  "TEST"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 891000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sends a get request to the system with the valid credentials",
+            "match": {
+              "location": "stepDefinitions.testSteps.login.\u003cinit\u003e(login.java:20)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "status code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.testSteps.createUser.\u003cinit\u003e(createUser.java:23)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "User logs into to the system",
+    "description": "",
+    "id": "user-logs-into-to-the-system",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/user/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

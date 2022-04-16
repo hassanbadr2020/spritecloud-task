@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="55.769">
+<testcase classname="add a new pet to the store" name="Try to add a new pet to the store with valid data" time="12.874">
+<system-out><![CDATA[Given user has status and name..............................................passed
+And the photo urls of "jhk" pet.............................................passed
+When user send post request with these valid data...........................passed
+Then the pet added with name "Dog"..........................................passed
+And status code is "200"....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Find Pets by Status" name="User try to find pets based on status" time="14.955">
+<system-out><![CDATA[Given User wants to find pet within "available".............................passed
+When Sends get request to pet endpoint with the status as query parameter...passed
+Then status code is "200"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Find Pets by Status" name="User try to find pets based on status 2" time="1.078">
+<system-out><![CDATA[Given User wants to find pet within "pending"...............................passed
+When Sends get request to pet endpoint with the status as query parameter...passed
+Then status code is "200"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Find Pets by Status" name="User try to find pets based on status 3" time="5.438">
+<system-out><![CDATA[Given User wants to find pet within "sold"..................................passed
+When Sends get request to pet endpoint with the status as query parameter...passed
+Then status code is "200"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Delete purchase by order Id" name="Try to delete a created order" time="16.344">
+<system-out><![CDATA[Given user has valid data to store a pet....................................passed
+And send a post request with the valid body.................................passed
+And status code is "200"....................................................passed
+When user sends a delete request to the system with the valid OrderId witch has been created.passed
+Then status code is "200"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="place an order for a pet" name="User try place an order for a pet with valid data" time="0.922">
+<system-out><![CDATA[Given user has valid data to store a pet....................................passed
+When send a post request with the valid body................................passed
+Then status code is "200"...................................................passed
+And the order has been stored successfully with status "placed".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Create a new User" name="try to create a new user with valid data" time="2.221">
+<system-out><![CDATA[Given Admin has valid data to create a new user.............................passed
+When Admin send post request to create user.................................passed
+Then status code is "200"...................................................passed
+And response body matches "json-schemas/createUser.json" in Api contract....passed
+]]></system-out>
+</testcase>
+<testcase classname="User logs into to the system" name="User try to logs in with valid credentials" time="0.891">
+<system-out><![CDATA[Given User has a valid userName and password................................passed
+When user sends a get request to the system with the valid credentials......passed
+Then status code is "200"...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
