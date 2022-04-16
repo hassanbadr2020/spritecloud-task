@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="225.001">
-<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For successful login" time="40.936">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="222.225">
+<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For successful login" time="64.56">
 <system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "Sample App" section.......................................passed
 And try to login with "valid" user name "anyUser" and password "pwd"........passed
@@ -8,7 +8,7 @@ When click on the login button..............................................pass
 Then user has  logged in with "Welcome, anyUser!"...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login" time="32.755">
+<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login" time="41.222">
 <system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "Sample App" section.......................................passed
 And try to login with "invalid" user name "" and password "pwd".............passed
@@ -16,7 +16,7 @@ When click on the login button..............................................pass
 Then user has not logged in with "Invalid username/password"................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login 2" time="30.341">
+<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login 2" time="33.278">
 <system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "Sample App" section.......................................passed
 And try to login with "invalid" user name "anyUser" and password "".........passed
@@ -24,7 +24,7 @@ When click on the login button..............................................pass
 Then user has not logged in with "Invalid username/password"................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login 3" time="28.909">
+<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login 3" time="10.047">
 <system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "Sample App" section.......................................passed
 And try to login with "invalid" user name "" and password ""................passed
@@ -32,27 +32,27 @@ When click on the login button..............................................pass
 Then user has not logged in with "Invalid username/password"................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot;" time="43.098">
+<testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot;" time="25.407">
 <system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "ajax delay" section.......................................passed
 When click on "ajax delay" Button...........................................passed
 Then the message of "Data loaded with AJAX get request." "ajax delay" is appeared after 15.passed
 ]]></system-out>
 </testcase>
-<testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot; 2" time="25.331">
+<testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot; 2" time="26.884">
 <system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "Client Side Delay" section................................passed
 When click on "Client Side Delay" Button....................................passed
 Then the message of "Data calculated on the client side." "Client Side Delay" is appeared after 15.passed
 ]]></system-out>
 </testcase>
-<testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="Ensure that a test is capable of waiting for a page to load" time="12.396">
+<testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="Ensure that a test is capable of waiting for a page to load" time="9.138">
 <system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 When click on the "load delay" section......................................passed
 Then the page has been loaded...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Scrolling an element into view may be a tricky task" name="Scrolling an element into view may be a tricky task" time="9.812">
+<testcase classname="Scrolling an element into view may be a tricky task" name="Scrolling an element into view may be a tricky task" time="10.393">
 <system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the ScrollBar section..........................................passed
 When Update scrollTop and scrollRight automatically of the hidden area......passed

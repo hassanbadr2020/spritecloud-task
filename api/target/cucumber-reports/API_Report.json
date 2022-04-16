@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-16T16:50:58.402Z",
+        "start_timestamp": "2022-04-16T17:49:33.742Z",
         "line": 14,
         "name": "Try to add a new pet to the store with valid data",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 260000000,
+              "duration": 162000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,6 @@
         "steps": [
           {
             "result": {
-              "duration": 5000000,
               "status": "passed"
             },
             "line": 5,
@@ -67,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 16853000000,
+              "duration": 11421000000,
               "status": "passed"
             },
             "line": 9,
@@ -79,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 3636000000,
+              "duration": 1750000000,
               "status": "passed"
             },
             "line": 10,
@@ -97,7 +96,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 11,
@@ -141,7 +139,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-16T16:51:20.389Z",
+        "start_timestamp": "2022-04-16T17:49:47.311Z",
         "line": 14,
         "name": "Try to delete a pet from the store already exist",
         "description": "",
@@ -149,7 +147,6 @@
         "after": [
           {
             "result": {
-              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -162,7 +159,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 5,
@@ -188,7 +184,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -206,7 +201,7 @@
           },
           {
             "result": {
-              "duration": 1039000000,
+              "duration": 984000000,
               "status": "passed"
             },
             "line": 9,
@@ -218,7 +213,7 @@
           },
           {
             "result": {
-              "duration": 1190000000,
+              "duration": 1063000000,
               "status": "passed"
             },
             "line": 10,
@@ -259,7 +254,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-16T16:51:22.654Z",
+        "start_timestamp": "2022-04-16T17:49:49.373Z",
         "line": 16,
         "name": "Try to delete a new pet from the store already exist with invalid ID",
         "description": "",
@@ -267,7 +262,7 @@
         "after": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "match": {
@@ -280,7 +275,7 @@
         "steps": [
           {
             "result": {
-              "duration": 891000000,
+              "duration": 906000000,
               "status": "passed"
             },
             "line": 17,
@@ -298,7 +293,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 18,
@@ -342,7 +336,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-16T16:51:23.560Z",
+        "start_timestamp": "2022-04-16T17:49:50.311Z",
         "line": 10,
         "name": "User try to find pets based on status",
         "description": "",
@@ -350,7 +344,7 @@
         "after": [
           {
             "result": {
-              "duration": 502000000,
+              "duration": 391000000,
               "status": "passed"
             },
             "match": {
@@ -380,7 +374,7 @@
           },
           {
             "result": {
-              "duration": 1140000000,
+              "duration": 1093000000,
               "status": "passed"
             },
             "line": 6,
@@ -392,7 +386,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
@@ -416,7 +409,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-16T16:51:25.223Z",
+        "start_timestamp": "2022-04-16T17:49:51.811Z",
         "line": 11,
         "name": "User try to find pets based on status",
         "description": "",
@@ -453,7 +446,7 @@
           },
           {
             "result": {
-              "duration": 922000000,
+              "duration": 875000000,
               "status": "passed"
             },
             "line": 6,
@@ -488,7 +481,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-16T16:51:26.160Z",
+        "start_timestamp": "2022-04-16T17:49:52.701Z",
         "line": 12,
         "name": "User try to find pets based on status",
         "description": "",
@@ -496,7 +489,7 @@
         "after": [
           {
             "result": {
-              "duration": 7000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "match": {
@@ -526,7 +519,7 @@
           },
           {
             "result": {
-              "duration": 998000000,
+              "duration": 906000000,
               "status": "passed"
             },
             "line": 6,
@@ -581,7 +574,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-16T16:51:27.187Z",
+        "start_timestamp": "2022-04-16T17:49:53.654Z",
         "line": 14,
         "name": "Try to delete a created order",
         "description": "",
@@ -601,7 +594,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 5,
@@ -635,7 +627,7 @@
           },
           {
             "result": {
-              "duration": 969000000,
+              "duration": 985000000,
               "status": "passed"
             },
             "line": 8,
@@ -664,7 +656,7 @@
           },
           {
             "result": {
-              "duration": 898000000,
+              "duration": 875000000,
               "status": "passed"
             },
             "line": 10,
@@ -719,7 +711,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-16T16:51:29.098Z",
+        "start_timestamp": "2022-04-16T17:49:55.529Z",
         "line": 13,
         "name": "User try place an order for a pet with valid data",
         "description": "",
@@ -772,7 +764,7 @@
           },
           {
             "result": {
-              "duration": 968000000,
+              "duration": 922000000,
               "status": "passed"
             },
             "line": 8,
@@ -801,7 +793,7 @@
           },
           {
             "result": {
-              "duration": 47000000,
+              "duration": 31000000,
               "status": "passed"
             },
             "line": 10,
@@ -845,7 +837,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-16T16:51:30.144Z",
+        "start_timestamp": "2022-04-16T17:49:56.498Z",
         "line": 13,
         "name": "try to create a new user with valid data",
         "description": "",
@@ -902,7 +894,7 @@
           },
           {
             "result": {
-              "duration": 907000000,
+              "duration": 937000000,
               "status": "passed"
             },
             "line": 8,
@@ -931,7 +923,7 @@
           },
           {
             "result": {
-              "duration": 2276000000,
+              "duration": 2016000000,
               "status": "passed"
             },
             "line": 10,
@@ -975,7 +967,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-16T16:51:33.343Z",
+        "start_timestamp": "2022-04-16T17:49:59.467Z",
         "line": 12,
         "name": "User try to logs in with valid credentials",
         "description": "",
@@ -1020,7 +1012,7 @@
           },
           {
             "result": {
-              "duration": 886000000,
+              "duration": 859000000,
               "status": "passed"
             },
             "line": 8,
