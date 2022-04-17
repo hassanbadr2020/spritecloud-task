@@ -6,7 +6,6 @@ Feature: User try to handle most types of delay from ajax, load and client side 
     And  click on the "<delay type>" section
     When click on "<delay type>" Button
     Then the message of "<hidden message>" "<delay type>" is appeared after 15
-
     Examples:
       | delay type        | hidden message                      |
       | ajax delay        | Data loaded with AJAX get request.  |

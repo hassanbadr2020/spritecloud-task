@@ -1,78 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="309.483">
-    <testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For successful login" time="96.279">
-        <system-out>
-            <![CDATA[Given User in the home age of "uitestingplayground".........................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="130.631">
+<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For successful login" time="46.114">
+<system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "Sample App" section.......................................passed
 And try to login with "valid" user name "anyUser" and password "pwd"........passed
 When click on the login button..............................................passed
 Then user has  logged in with "Welcome, anyUser!"...........................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login" time="31.228">
-        <system-out>
-            <![CDATA[Given User in the home age of "uitestingplayground".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login" time="8.13">
+<system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "Sample App" section.......................................passed
 And try to login with "invalid" user name "" and password "pwd".............passed
 When click on the login button..............................................passed
 Then user has not logged in with "Invalid username/password"................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login 2" time="29.574">
-        <system-out>
-            <![CDATA[Given User in the home age of "uitestingplayground".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login 2" time="7.463">
+<system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "Sample App" section.......................................passed
 And try to login with "invalid" user name "anyUser" and password "".........passed
 When click on the login button..............................................passed
 Then user has not logged in with "Invalid username/password"................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login 3" time="28.747">
-        <system-out>
-            <![CDATA[Given User in the home age of "uitestingplayground".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Demo application with dynamically generated element attributes" name="Fill in and submit the form. For failed login 3" time="7.288">
+<system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "Sample App" section.......................................passed
 And try to login with "invalid" user name "" and password ""................passed
 When click on the login button..............................................passed
 Then user has not logged in with "Invalid username/password"................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot;" time="50.73">
-        <system-out>
-            <![CDATA[Given User in the home age of "uitestingplayground".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot;" time="21.961">
+<system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "ajax delay" section.......................................passed
 When click on "ajax delay" Button...........................................passed
 Then the message of "Data loaded with AJAX get request." "ajax delay" is appeared after 15.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot; 2" time="52.511">
-        <system-out>
-            <![CDATA[Given User in the home age of "uitestingplayground".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot; 2" time="21.964">
+<system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the "Client Side Delay" section................................passed
 When click on "Client Side Delay" Button....................................passed
 Then the message of "Data calculated on the client side." "Client Side Delay" is appeared after 15.passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="Ensure that a test is capable of waiting for a page to load" time="8.778">
-        <system-out>
-            <![CDATA[Given User in the home age of "uitestingplayground".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="User try to handle most types of delay from ajax, load and client side delays" name="Ensure that a test is capable of waiting for a page to load" time="4.734">
+<system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 When click on the "load delay" section......................................passed
 Then the page has been loaded...............................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Scrolling an element into view may be a tricky task" name="Scrolling an element into view may be a tricky task" time="7.726">
-        <system-out>
-            <![CDATA[Given User in the home age of "uitestingplayground".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scrolling an element into view may be a tricky task" name="Scrolling an element into view may be a tricky task" time="6.304">
+<system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
 And click on the ScrollBar section..........................................passed
 When Update scrollTop and scrollRight automatically of the hidden area......passed
 Then the button is visible now..............................................passed
-]]>
-        </system-out>
-    </testcase>
+]]></system-out>
+</testcase>
+<testcase classname="Checking if element is visible on screen may be a non trivial task" name="test that clicks Start button and then waits for the progress bar to reach 75%" time="5.534">
+<system-out><![CDATA[Given User in the home age of "uitestingplayground".........................passed
+And click on the "Visibility" section.......................................passed
+When click on hide button...................................................passed
+Then the visibility button not displayed....................................passed
+]]></system-out>
+</testcase>
 </testsuite>

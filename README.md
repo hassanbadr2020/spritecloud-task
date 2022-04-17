@@ -16,8 +16,8 @@ project for automating web UI and API tests based on BDD and ready to be integra
 * the framework support test execution reports /target/cucumber-reports directory
 * the test cases are designed based on The BDD using cucumber
 * test data are provided using data driven way from examples with BDD
-* the UI test cover 3 features and 8 scenario
-* the API tests cover 6 features and 8 scenario
+* the UI test cover 6 features and 9 scenario
+* the API tests cover 7 features and 10 scenario
 * the API tests are designed based on the Swagger specs
 * the UI tests are designed based on exploratory testing and all of them are green
 
@@ -51,10 +51,7 @@ project for automating web UI and API tests based on BDD and ready to be integra
 # Calliope enhancements
 
 ### improvements
-
-    1- When I want to remove a report file I've to remove all the profile
-       so if possible to remove only that report will bs practical.
-    2-visualization of the xml report is not same as json file.  
+    1-visualization of the xml report is not same as json file.  
     3-customize to whom should to send email summery.
 
 ### features to add are
@@ -87,19 +84,22 @@ project for automating web UI and API tests based on BDD and ready to be integra
 * and use one of the official Maven Docker images, e.g., maven:3-jdk-11 in your .gitlab-ci.yml file
 
 ``` 
- image: maven:3-jdk-11
+        image: markhobson/maven-chrome:jdk-11
 
-stages:          # List of stages for jobs, and their order of execution
- - test
+        stages:          # List of stages for jobs, and their order of execution
+        - test
 
-api-test-job:   # This job runs in the test stage.
-  stage: test    # It only starts when the job in the build stage completes successfully.
-  script:
-    - "mvn -pl ui -am test"
-ui-test-job:   # This job runs in the test stage.
-  stage: test    # It only starts when the job in the build stage completes successfully.
-  script:
-    - "mvn -pl ui -am test
+        ui-test-job:   # This job runs in the test stage.
+          stage: test
+          script:
+           - "mvn -pl ui -am test" #-DskipTests
+
+
+        api-test-job:   # This job also runs in the test stage.
+        #image: maven:3-jdk-11   #3-jdk-11
+         stage: test    # It can run at the same time as ui-test-job (in parallel).
+         script:
+         - "mvn -pl api -am test"
 ```
 
 # What you used to select the scenarios, what was your approach?
@@ -134,3 +134,4 @@ ui-test-job:   # This job runs in the test stage.
      2- assert from DB classes
      3- Handle api requests from a builder design pattern class 
      4- Create other jobs for regression and smoke tests 
+     5- finalize automation for the rest apis and UI to provide examples 
