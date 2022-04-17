@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.Runner" time="41.719" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.Runner" time="35.163" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_301\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,14 +64,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Try to add a new pet to the store with valid data" classname="add a new pet to the store" time="21.464"/>
-  <testcase name="Try to delete a pet from the store already exist" classname="add a new pet to the store" time="2.196"/>
-  <testcase name="Try to delete a new pet from the store already exist with invalid ID" classname="add a new pet to the store" time="0.893"/>
-  <testcase name="User try to find pets based on status" classname="Find Pets by Status" time="15.493"/>
-  <testcase name="User try to find pets based on status" classname="Find Pets by Status" time="0.087"/>
-  <testcase name="User try to find pets based on status" classname="Find Pets by Status" time="0.22"/>
-  <testcase name="Try to delete a created order" classname="Delete purchase by order Id" time="0.083"/>
-  <testcase name="User try place an order for a pet with valid data" classname="place an order for a pet" time="0.062"/>
-  <testcase name="try to create a new user with valid data" classname="Create a new User" time="0.064"/>
-  <testcase name="User try to logs in with valid credentials" classname="User logs into to the system" time="0.048"/>
+  <testcase name="Try to add a new pet to the store with valid data" classname="add a new pet to the store" time="17.887"/>
+  <testcase name="Try to delete a pet from the store already exist" classname="add a new pet to the store" time="2.26"/>
+  <testcase name="Try to delete a new pet from the store already exist with invalid ID" classname="add a new pet to the store" time="0.951"/>
+  <testcase name="User try to find pets based on status" classname="Find Pets by Status" time="11.964"/>
+  <testcase name="User try to find pets based on status" classname="Find Pets by Status" time="0.043"/>
+  <testcase name="User try to find pets based on status" classname="Find Pets by Status" time="0.137"/>
+  <testcase name="Try to delete a created order" classname="Delete purchase by order Id" time="0.08"/>
+  <testcase name="User try place an order for a pet with valid data" classname="place an order for a pet" time="0.063"/>
+  <testcase name="try to create a new user with valid data" classname="Create a new User" time="0.058"/>
+  <testcase name="User try to logs in with valid credentials" classname="User logs into to the system" time="0.049"/>
 </testsuite>

@@ -3,5 +3,6 @@ utilities\MethodHelper.class
 runners\Runner.class
 stepDefinitions\testSteps\login.class
 stepDefinitions\testSteps\scrollBar.class
+stepDefinitions\testSteps\visibility.class
 base\Base.class
 stepDefinitions\testSteps\delays.class

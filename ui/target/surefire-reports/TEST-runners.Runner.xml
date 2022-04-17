@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.Runner" time="226.098" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.Runner" time="197.883" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
@@ -64,12 +64,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Fill in and submit the form. For successful login" classname="Demo application with dynamically generated element attributes" time="65.763"/>
-  <testcase name="Fill in and submit the form. For failed login" classname="Demo application with dynamically generated element attributes" time="41.238"/>
-  <testcase name="Fill in and submit the form. For failed login" classname="Demo application with dynamically generated element attributes" time="33.278"/>
-  <testcase name="Fill in and submit the form. For failed login" classname="Demo application with dynamically generated element attributes" time="10.062"/>
-  <testcase name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot;" classname="User try to handle most types of delay from ajax, load and client side delays" time="25.407"/>
-  <testcase name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot;" classname="User try to handle most types of delay from ajax, load and client side delays" time="26.9"/>
-  <testcase name="Ensure that a test is capable of waiting for a page to load" classname="User try to handle most types of delay from ajax, load and client side delays" time="9.138"/>
-  <testcase name="Scrolling an element into view may be a tricky task" classname="Scrolling an element into view may be a tricky task" time="10.408"/>
+  <testcase name="Fill in and submit the form. For successful login" classname="Demo application with dynamically generated element attributes" time="34.975"/>
+  <testcase name="Fill in and submit the form. For failed login" classname="Demo application with dynamically generated element attributes" time="11.529"/>
+  <testcase name="Fill in and submit the form. For failed login" classname="Demo application with dynamically generated element attributes" time="8.254"/>
+  <testcase name="Fill in and submit the form. For failed login" classname="Demo application with dynamically generated element attributes" time="7.222"/>
+  <testcase name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot;" classname="User try to handle most types of delay from ajax, load and client side delays" time="27.102"/>
+  <testcase name="&quot;try to handle elements may appear on a page after loading data with ajax or client-side time consuming&quot;" classname="User try to handle most types of delay from ajax, load and client side delays" time="21.255"/>
+  <testcase name="Ensure that a test is capable of waiting for a page to load" classname="User try to handle most types of delay from ajax, load and client side delays" time="27.555"/>
+  <testcase name="Scrolling an element into view may be a tricky task" classname="Scrolling an element into view may be a tricky task" time="27.545"/>
+  <testcase name="test that clicks hide button and then check visibility of visibility button" classname="Checking if element is visible on screen may be a non trivial task" time="28.762"/>
 </testsuite>

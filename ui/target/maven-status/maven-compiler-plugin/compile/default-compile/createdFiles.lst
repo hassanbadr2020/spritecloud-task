@@ -4,4 +4,5 @@ pages\loginPage.class
 pages\ajax.class
 pages\scrollBars.class
 pages\clientDelay.class
+pages\visibilityPage.class
 pages\basePage.class

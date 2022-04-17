@@ -1,6 +1,7 @@
+@visibility
 Feature: Checking if element is visible on screen may be a non trivial task
 
-  Scenario Outline:test that clicks Start button and then waits for the progress bar to reach 75%
+  Scenario Outline:test that clicks hide button and then check visibility of visibility button
     Given User in the home age of "uitestingplayground"
     And   click on the "<Visibility>" section
     When  click on hide button
