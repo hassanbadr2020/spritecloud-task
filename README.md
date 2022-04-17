@@ -84,22 +84,19 @@ project for automating web UI and API tests based on BDD and ready to be integra
 * and use one of the official Maven Docker images, e.g., maven:3-jdk-11 in your .gitlab-ci.yml file
 
 ``` 
-        image: markhobson/maven-chrome:jdk-11
-
-        stages:          # List of stages for jobs, and their order of execution
-        - test
-
-        ui-test-job:   # This job runs in the test stage.
-          stage: test
-          script:
-           - "mvn -pl ui -am test" #-DskipTests
-
-
-        api-test-job:   # This job also runs in the test stage.
-        #image: maven:3-jdk-11   #3-jdk-11
-         stage: test    # It can run at the same time as ui-test-job (in parallel).
-         script:
-         - "mvn -pl api -am test"
+image: markhobson/maven-chrome:jdk-11
+stages:
+- ".pre"
+- test
+- ".post"
+ui-test-job:
+  stage: test
+  script:
+  - mvn -pl ui -am test
+api-test-job:
+  stage: test
+  script:
+  - mvn -pl api -am test
 ```
 
 # What you used to select the scenarios, what was your approach?
