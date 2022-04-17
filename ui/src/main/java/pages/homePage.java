@@ -25,6 +25,9 @@ public class homePage extends basePage {
     @FindBy(linkText = "Sample App")
     WebElement SampleApp;
 
+    @FindBy(linkText = "Visibility")
+    WebElement Visibility;
+
 
     public void clickScrollBar() {
         clickButton(scrollBar);
@@ -44,5 +47,9 @@ public class homePage extends basePage {
 
     public void clickSampleApp() {
         clickButton(SampleApp);
+    }
+
+    public void clickVisibility() {
+        clickButton(Visibility);
     }
 }

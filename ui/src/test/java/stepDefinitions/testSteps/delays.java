@@ -5,6 +5,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.WebElement;
 import pages.ajax;
 import pages.clientDelay;
 import pages.homePage;
@@ -34,6 +35,8 @@ public class delays extends Base {
             homePage.clickLoadDelay();
         } else if (flag.equals("Sample App")) {
             homePage.clickSampleApp();
+        }else if (flag.equals("Visibility")) {
+            homePage.clickVisibility();
         }
     }
 
