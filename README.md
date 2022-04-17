@@ -45,8 +45,8 @@ project for automating web UI and API tests based on BDD and ready to be integra
 * Spark-Report
 * HTML-Report
 * CucumberReport json and xml
-* API Report on CalliopeOrg https://app.calliope.pro/reports/126280/public/051add69-bfa9-47c0-8c22-107129609e2d
-* UI Report on CalliopeOrg https://app.calliope.pro/reports/126282/public/e9e03fd7-961c-4542-94a6-6aeb36544a57
+* API Report on CalliopeOrg https://app.calliope.pro/reports/126402/public/0c53a4e7-ca42-4ee7-a561-48ce048b8f1a
+* UI Report on CalliopeOrg https://app.calliope.pro/reports/126401/public/3baa3bf7-3864-4728-afac-93cb83d961b1
 
 # Calliope enhancements
 
@@ -57,7 +57,7 @@ project for automating web UI and API tests based on BDD and ready to be integra
 ### features to add are
 
     1- to support HTML files
-    2- integrate with jira as visual report.
+    2- support more detailes and charts for the report 
 
 # How to execute
 
